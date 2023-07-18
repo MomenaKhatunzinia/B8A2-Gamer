@@ -43,7 +43,7 @@ nav
 
 
    
-#header-icon
+.header-icon
 {
     width: 86.041px;
     height: 40px;
@@ -78,12 +78,17 @@ nav
 .banner
 {
     display: flex;
-    padding-left: 240px; 
+    
+
 }
 .banner-contain
 {
+    text-align: center;
     width: 901px;
     height: 700px;
+    background-image: url("../images/Group 14.png");
+    
+    /* background-image: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);; */
 
 }
 .banner-img
@@ -112,6 +117,8 @@ nav
 .banner-option
 {
     list-style-type: none;
+    text-align: left;
+    padding-left: 280px;
 }
 .Sign-in
 {
@@ -135,6 +142,147 @@ nav
     text-transform: uppercase;
 }
 
+/* Online game img */
+
+.online-game-contain
+{
+    text-align: center;
+    padding-top: 30px;
+
+}
+#online-title
+{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+#online-title-style
+{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+#online-discription
+{
+    padding-top: 5px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.online-img
+{
+    padding-top: 25px;
+    display: flex;
+    gap: 24px;
+    padding-left: 130px;
+
+   
+}
+
+.online-img1
+{
+    width: 342px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+.online-para
+{
+    max-width: 342px;
+    max-height: 60px;
+    text-align:justify;
+
+} 
+
+.img-para
+{
+    gap: 24px;
+}
+/* play instent */
+.play-instent
+{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 250px;
+}
+.play-instent-title
+{
+    
+    font-size: 48px;
+    font-weight: 700;
+}
+.play-instent-discription
+{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    width: 353px;
+}
+/* games and icons */
+.games
+{
+    width: 1920px;
+    height: 427px;
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    
+}
+.game-design
+{
+    width: 243px;
+    height: 80px;
+    border-radius: 50px;
+    display: flex;
+    align-items:center;
+
+}
+
+footer
+{
+height: 636px;
+width: 1920px;
+background-color:#0B0223;
+padding-top: 120px;
+
+}
+.footer-name
+{
+    display: block;
+    text-align: center;  
+    
+
+}
+.footer-contain
+{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+#footer-title
+{
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFF;
+}
 
 
-
+.footer-ul
+{
+    display: flex;
+    gap: 24px;
+    color: #FFF;
+    align-items: center;
+    justify-content: center
+}
+.footer-para
+{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
