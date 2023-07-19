@@ -80,6 +80,20 @@
 {
     grid-template-columns: repeat(3 , 1fr);
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* play instent */
+.play-instent
+{
+    flex-direction: column;
+    
+ 
+}
+.img-instent
+{
+    align-items: center;
+    justify-content: center;
 }
    
 }
