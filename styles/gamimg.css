@@ -27,6 +27,7 @@ nav
     align-items: center;
     justify-content: center;
     
+    
 }  
 .header-icon
 {
@@ -71,6 +72,7 @@ nav
 }
 
 /* Banner contain*/
+
 .banner
 {
     display: flex;
@@ -91,6 +93,7 @@ nav
 {
     padding-left: 35px;
     margin-left: 200px;
+    
 }
 
 .banner-title
@@ -199,7 +202,35 @@ nav
     text-align:justify;
 
 } 
-
+.container {
+    position: relative;
+  }
+  
+  .image {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    top: 50%;
+  left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
 .img-para
 {
     gap: 24px;
@@ -230,6 +261,7 @@ nav
 {
     width: 1920px;
     height: 427px;
+    margin-left: 500px;
     display: grid;
     grid-template-columns: repeat(5 , 1fr);
 }
@@ -274,9 +306,11 @@ padding-top: 120px;
 .footer-ul
 {
     list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(6 , 1fr);
-    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 80px;
     color: #FFF;
     
 }

@@ -21,23 +21,33 @@
     {
         flex-direction: column;
         width: 100%;
+        margin-bottom: 300px;
     }
     /* Banner Part */
 
     .banner
 {
+  
     flex-direction: column;
-    padding-left: 600px;
+    margin-top: 600px;
+    justify-content: center;
+    align-items: center;
 
 }
+.banner-img
+{
+    margin-left: 0px;
+}
+
 .banner-contain
 {
-   margin-top: 300px;
+  
+  
 }
 
 .online-game-contain
 {
-    margin-top: 1000px;
+    margin-top: 600px;
 
 }
 
