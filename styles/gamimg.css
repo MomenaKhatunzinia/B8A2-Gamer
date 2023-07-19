@@ -78,22 +78,20 @@ nav
     display: flex;
     width: 1920px;
     height: 700px;
+    display: flex;
         
 
 }
 .banner-contain
 {
     text-align: center;
-    /* width: 901px;
-    height: 700px; */
     width: 50%;
     background-image: url("../images/Group 14.png");
 
 }
 .banner-img
 {
-    padding-left: 35px;
-    margin-left: 200px;
+width: 50%;
     
 }
 
