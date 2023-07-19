@@ -247,10 +247,11 @@ nav
     margin-left: 250px;
     width: 1920px;
 }
-.img-instent
+.instent-img
 {
     position: relative;
     width: 50%;
+
 }
 .img-big
 {
@@ -268,7 +269,8 @@ nav
     height: 365.083px;
     position: absolute;
     right: 500px;
-    top: 2000px;
+    bottom: -5%;
+    left: -15%;
    
 
 
@@ -298,17 +300,23 @@ nav
 {
     width: 1920px;
     height: 427px;
-    display: grid;
-    grid-template-columns:repeat(5 , 1fr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 44px;
 }
 .game-design
 {
     width: 243px;
     height: 80px;
-    border-radius: 50px;
-    border: 2px solid  #fff;
     display: flex;
-    align-items:center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 5px solid  #fff;
+  
+    
 
 }
 .game-design:hover
@@ -316,6 +324,9 @@ nav
     border-color: #FF42A5;
     color: #FF42A5;
 }
+
+
+
 
 footer
 {
