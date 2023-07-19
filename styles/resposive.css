@@ -149,20 +149,20 @@
 .play-instent
 {
     flex-direction: column;  
+    align-items: center;
+    justify-content: center;
 
 }
 .instent-discripton
 {
     margin-top: 1400px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 600px;
+
 }
 .img-instent
 {
-    align-items: center;
-    justify-content: center;
-    margin-left: 600px;
+    
+    width: 100%;
+
 }
 .games
 {
