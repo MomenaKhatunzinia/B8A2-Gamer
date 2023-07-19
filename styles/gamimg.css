@@ -242,6 +242,33 @@ nav
     padding-top: 100px;
     padding-bottom: 100px;
     margin-left: 250px;
+    width: 1920px;
+}
+.img-instent
+{
+    position: relative;
+    width: 50%;
+}
+.img-big
+{
+    width: 634.833px;
+    height: 650px;
+    border-radius: 8px;
+
+    
+    
+}
+.img-small
+{
+    
+    width: 318.5px;
+    height: 365.083px;
+    position: absolute;
+    right: 500px;
+    top: 2000px;
+   
+
+
 }
 .play-instent-title
 {
@@ -254,16 +281,16 @@ nav
     color: #534C64;
     font-size: 18px;
     font-weight: 400;
-    width: 353px;
+    width: 50%;
 }
 /* games and icons */
 .games
 {
     width: 1920px;
     height: 427px;
-    margin-left: 500px;
     display: grid;
-    grid-template-columns: repeat(5 , 1fr);
+    grid-template-columns:repeat(5 , 1fr);
+    justify-content:right;
 }
 .game-design
 {
