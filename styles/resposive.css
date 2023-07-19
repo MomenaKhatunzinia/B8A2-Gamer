@@ -1,6 +1,6 @@
 
-/*  */
-@media screen and (max-width:425px)
+/* For Phone */
+@media screen and (max-width:576px)
 {
     nav 
 {
@@ -10,15 +10,71 @@
    .header
     {
         flex-direction: column;
+        
+    }
+    .header-name
+    {
+       justify-content: center;
+        width: 100%;
     }
     .header-about
     {
         flex-direction: column;
+        width: 100%;
     }
-  .header-name
+    /* Banner Part */
+
+    .banner
+{
+    flex-direction: column;
+    padding-left: 600px;
+
+}
+.banner-contain
+{
+   margin-top: 300px;
+}
+
+.online-game-contain
+{
+    margin-top: 1000px;
+
+}
+
+.online-img
+{
+    flex-direction: column;
+    padding-left: 800px;
+}
+
+   
+}
+
+/* For tablet */
+@media screen and (min-width:576px) and (max-width:992px)
+{
+    nav 
+{
+    box-shadow: none;
+   
+}
+   .header
     {
-       margin-left: 200px;
+        flex-direction: column;
+        
     }
+    .header-name
+    {
+      align-items: center;
+      justify-content: center;
+        width: 100%;
+    }
+    .header-about
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    /* Banner Part */
 
     .banner
 {

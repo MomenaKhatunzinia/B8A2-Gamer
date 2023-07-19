@@ -18,20 +18,14 @@ nav
 }
 .header
 {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;    
+    display: flex;   
 }
 .header-name
 {
-    font-size: 45px;
-    font-weight: 700;
-    padding-left: 100px; 
     width: 50%;
-    align-items: center;
     display: flex;
-    gap: 24px;
+    align-items: center;
+    justify-content: center;
     
 }  
 .header-icon
@@ -39,6 +33,7 @@ nav
     width: 86.041px;
     height: 40px;
     object-fit: cover;
+    margin-right: 24px;
     
 }
 .header-about a
@@ -51,11 +46,11 @@ nav
 .header-about
 {
     width: 50%;
+    width: 50%;
     display: flex;
-    gap: 25px;
-    justify-content: right;
-    padding-right: 100px; 
     align-items: center;
+    justify-content: center;
+    gap: 25px;
     
 }
 .follow-btn
@@ -67,6 +62,12 @@ nav
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.header-title
+{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
 }
 
 /* Banner contain*/
@@ -89,6 +90,7 @@ nav
 .banner-img
 {
     padding-left: 35px;
+    margin-left: 200px;
 }
 
 .banner-title
