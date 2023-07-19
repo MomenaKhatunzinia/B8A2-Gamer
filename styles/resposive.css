@@ -4,7 +4,6 @@
 {
     nav 
 {
-    background: #FFF;
     box-shadow: none;
    
 }
@@ -12,17 +11,37 @@
     {
         flex-direction: column;
     }
-    .header-name, .header-about
+    .header-about
     {
-        padding: 0;
+        flex-direction: column;
     }
-    
-    .ul-header
+  .header-name
     {
-        display: block;
-        padding-right: 650px;
+       margin-left: 200px;
+    }
 
-    }
+    .banner
+{
+    flex-direction: column;
+    padding-left: 600px;
+
+}
+.banner-contain
+{
+   margin-top: 300px;
+}
+
+.online-game-contain
+{
+    margin-top: 1000px;
+
+}
+
+.online-img
+{
+    flex-direction: column;
+    padding-left: 800px;
+}
 
    
 }
