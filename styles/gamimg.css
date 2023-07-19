@@ -9,18 +9,18 @@ body
 }
 nav 
 {
-    width: 1920px;
-    height: 130px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px #0000000d;
    
 }
 .header
 {
     display: flex;
-    background: #FFF;
-    box-shadow: 0px 4px 30px 0px #0000000d;
     align-items: center;
     text-align: center;
     justify-content: space-between;
+    width: 1920px;
+    height: 130px;
 
     
 }
@@ -28,9 +28,11 @@ nav
 {
     font-size: 45px;
     font-weight: 700;
-    padding-left: 250px;
+    padding-left: 100px; 
+    width: 50%;
     align-items: center;
     display: flex;
+    gap: 24px;
     
 }
 .ul-header
@@ -39,6 +41,7 @@ nav
     display: flex;
     gap: 25px; 
     align-items: center;
+
 }
 
 
@@ -56,9 +59,10 @@ nav
     color: #3C354F;
     font-size: 18px;
     font-weight: 500;
-    padding-right: 250px;
+     padding-right: 100px;
     align-items: center;
     justify-content: center;
+  
     
 }
 
@@ -74,7 +78,7 @@ nav
     background: rgba(11, 2, 35, 0.10);
 }
 
-/* Banner contain */
+/* Banner contain
 .banner
 {
     display: flex;
@@ -88,7 +92,7 @@ nav
     height: 700px;
     background-image: url("../images/Group 14.png");
     
-    /* background-image: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);; */
+    /* background-image: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);; 
 
 }
 .banner-img
@@ -142,7 +146,7 @@ nav
     text-transform: uppercase;
 }
 
-/* Online game img */
+/* Online game img 
 
 .online-game-contain
 {
@@ -203,7 +207,7 @@ nav
 {
     gap: 24px;
 }
-/* play instent */
+/* play instent 
 .play-instent
 {
     display: flex;
@@ -224,7 +228,7 @@ nav
     font-weight: 400;
     width: 353px;
 }
-/* games and icons */
+/* games and icons 
 .games
 {
     width: 1920px;
@@ -285,4 +289,4 @@ padding-top: 120px;
     color: rgba(255, 255, 255, 0.60);
     font-size: 16px;
     font-weight: 500;
-}
+} */

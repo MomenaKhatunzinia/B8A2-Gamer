@@ -2,10 +2,27 @@
 /*  */
 @media screen and (max-width:425px)
 {
+    nav 
+{
+    background: #FFF;
+    box-shadow: none;
+   
+}
    .header
     {
         flex-direction: column;
+    }
+    .header-name, .header-about
+    {
+        padding: 0;
+    }
+    
+    .ul-header
+    {
+        display: block;
+        padding-right: 650px;
 
     }
+
    
 }
